@@ -1,0 +1,12 @@
+import math
+
+def calculate_circle(radius):
+    circumference = 2 * math.pi * radius
+    area = math.pi * radius ** 2
+    return circumference, area
+
+radius = float(input("輸入半徑："))
+circumference, area = calculate_circle(radius)
+print(f"圓周長: {circumference}")
+print(f"圓面積: {area}")
+commit changes
